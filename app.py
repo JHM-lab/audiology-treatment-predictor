@@ -18,7 +18,7 @@ def load_artifacts():
 
 model, label_encoder, feature_cols, ref_df = load_artifacts()
 
-st.title("🎧 Audiology Treatment Predictor & Dataset Comparator (AC & BC)")
+st.title("Audiology Treatment Predictor & Dataset Comparator (AC & BC)")
 st.markdown("Enter patient Air Conduction (AC) and Bone Conduction (BC) thresholds below to predict treatment recommendations and evaluate audiometric profiles.")
 
 frequencies = [250, 500, 750, 1000, 1500, 2000, 3000, 4000, 6000, 8000]
